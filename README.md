@@ -8,4 +8,4 @@
 
 
 
-url = path to solr instance with geoblacklight schema (e.g. http://100.000.00.000:8983/solr )
+url = path to solr instance with geoblacklight schema (e.g. http://127.0.0.1:8983/solr )
