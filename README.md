@@ -1,10 +1,10 @@
 **Run geoblacklight alpha**  
 
-    docker run -d -e SOLR_URL=url -p 8080:3000 eliotjordan/geoblacklight:alpha
+    docker run -d -e SOLR_URL=url -p 8080:3000 eliotjordan/docker-geoblacklight:alpha
 
 **Run latest geoblacklight development branch:**  
 
-    docker run -d -e SOLR_URL=url -p 8080:3000 eliotjordan/geoblacklight:dev
+    docker run -d -e SOLR_URL=url -p 8080:3000 eliotjordan/docker-geoblacklight:dev
 
 
 
