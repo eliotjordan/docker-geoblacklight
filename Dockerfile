@@ -13,7 +13,7 @@ WORKDIR /usr/src/rails-app
 RUN git clone --recurse https://github.com/geoblacklight/geoblacklight.git
 
 # Add geoblacklight gem
-RUN echo -e "\ngem 'geoblacklight', :path => '.'" >> Gemfile
+RUN echo "gem 'geoblacklight', :path => '.'" >> Gemfile
 RUN bundle 
 
 # Generate geoblacklight template
