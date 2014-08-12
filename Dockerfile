@@ -10,7 +10,7 @@ RUN rails new rails-app
 WORKDIR /usr/src/rails-app
 
 # Clone geoblacklight repo and geoblacklight-schema submodule
-RUN git clone --recurse https://github.com/sul-dlss/geoblacklight.git
+RUN git clone --recurse https://github.com/geoblacklight/geoblacklight.git
 
 # Add geoblacklight gem
 RUN echo "gem 'geoblacklight', :path => '.'" >> Gemfile
